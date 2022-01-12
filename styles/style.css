@@ -1,0 +1,19 @@
+div {
+    display:block;
+    width: 200px;
+    height: 100px;
+}
+.div-1 {
+    background-color: blueviolet;
+}
+.div-2 {
+    background-color: purple;
+}
+.div-3 {
+    background-color: palevioletred;
+}
+.div-4 {
+    background-color: darkkhaki;
+}
+.color-white {
+    color: white;
