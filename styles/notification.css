@@ -1,0 +1,14 @@
+.notification-block {
+    padding-block: 10px;
+    text-align:center;
+    background-color: #25252b;
+    color: white;
+}
+.notification-block p {
+    margin: 0px;
+    font-size: 16px;
+}
+.notification-block a {
+    color:#0098ff;
+    text-decoration: none;
+}

@@ -1,0 +1,10 @@
+* {
+    font-family:'ALK Rex Bold', sans-serif;
+}
+body {
+    margin: 0px;
+}
+.container {
+    width: 800px;
+ margin-inline: auto;
+}

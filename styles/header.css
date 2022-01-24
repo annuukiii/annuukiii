@@ -1,0 +1,18 @@
+header {
+    height: 60px;
+    background-color: #2c2c32;
+}
+nav {
+    height: 100%
+}
+nav .d-flex {
+    gap: 15px;
+}
+nav a {
+    color:white ;
+    text-decoration: none;
+}
+.nav-image {
+height: 10px;
+display: flex;
+} 
