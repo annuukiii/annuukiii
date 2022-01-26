@@ -33,3 +33,115 @@ color: white;
 .welcome-container h1 span {
     font-weight: 300px;
 }
+
+.welcome-container .download-container {
+    background-color: #0066b8;
+    color: white;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    height: 70px;
+    }
+
+.welcome-container .download-container h6 {
+    margin: 0;
+}
+
+.welcome-container .download-container > div:first-child {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 3px solid #25252b;
+}
+    
+
+.welcome-container .download-container > div:last-child {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  
+}
+  
+.tooltip-container {
+    font-size: 14px;
+    background-color: #25252b;
+    padding-block: 7px;
+    border-radius: 10px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.tooltip-container::after {
+    content: ''; 
+    background-color: #25252b;
+    width: 15px;
+    height: 15px;
+    transform:rotate(45deg);
+    position: absolute;
+    right: 13px;
+    top: -8px;
+}
+ 
+.tooltip-container p {
+    margin: 0px;
+}
+
+.tooltip-container a {
+color: #0098ff ;
+text-decoration: none;
+}
+
+
+
+.rules-container {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.rules-container p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.rules-container a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.features-container {
+    text-align: center;
+}
+.features-container .container >div {
+    padding-block: 30px ;
+}
+
+.features-container .container >div:hover {
+    background: #e3e3e3
+}
+
+.features-container .container > div:first-child:hover i { 
+    color: rgb(6, 215, 252);
+}
+
+ .features-container .container > div:nth-child(2):hover i { 
+    color: rgb(230, 128, 128);
+}
+
+ .features-container .container > div:nth-child(3):hover i { 
+    color: rgb(173, 153, 245);
+}
+
+  .features-container .container > div:last-child:hover i { 
+    color: rgb(2, 65, 21);
+}
+
+
+.features-container .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.features-container i {
+    font-size: 70px;
+    margin-bottom: 15px;
+}
