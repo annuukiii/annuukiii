@@ -12,6 +12,7 @@
 .welcome-container .container {
     display: grid;
     grid-template-columns: 1fr minmax(0, 2fr);
+    grid-column-gap: 40px;
 } 
 
 .welcome-container .container div:first-child {
@@ -144,4 +145,187 @@ text-decoration: none;
 .features-container i {
     font-size: 70px;
     margin-bottom: 15px;
+}
+
+section {
+    padding-block: 60px;
+}
+
+
+section:nth-child(even) {
+    background-color: #f5f5f5;
+}
+ 
+.info-section:nth-child(even) >div div:first-child {
+    order: 2;
+}
+
+.info-section:nth-child(even) >div div:last-child {
+    order: 1;
+}
+
+.info-section > div {
+display: flex;
+align-items: center;
+gap: 80px;
+}
+
+.info-section img {
+    width: 100%;
+    display: block;
+}
+
+.testimonials-section > div {
+
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0, 1fr));
+    grid-column-gap: 20px;
+}
+
+.testimonials-section > div .arrow {
+    position: absolute;
+    font-size: 40px;
+    top: 85px;
+    cursor: pointer;
+}
+
+.testimonials-section > div .arrow.fa-arrow-left {
+left: -50px;
+}
+
+.testimonials-section > div .arrow.fa-arrow-right {
+    right: -70px;
+
+}
+
+.external-langs h1 {
+    text-align: center;
+}
+
+.external-langs .d-grid {
+    display: grid;
+    grid-template-columns: repeat(6,minmax(0, 1fr));
+    gap: 25px;
+}
+
+.external-langs .external-link {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    color: #0071bc;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.external-langs .btn {
+    display: flex;
+    color: cornsilk;
+    background-color: #0071bc;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+}
+
+.os-versions > div {
+ display: grid;
+ grid-template-columns: repeat(3, minmax(0, 1fr));
+ gap: 25px;
+}
+
+.os-versions .main-img {
+    display: block;
+    width: 100px;
+    margin: 20px;
+    margin-inline: auto;
+}
+
+.os-versions .btn {
+    color: white;
+    background-color: #0071bc;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+
+}
+
+.os-versions .btn img {
+    width: 12px;
+}
+
+.os-versions .btn > div {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.os-versions table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.os-versions table td {
+    font-size: 15px;
+}
+
+.os-versions table a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:#0071bc;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 3px;
+    height: 20px;
+}
+
+.os-versions table td:first-child {
+    text-align: center;
+}
+
+.os-versions .btn-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 5px;
+}
+
+.text-section .text {
+    display: block;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+} 
+
+..text-section .text h1
+
+.text-section .text p {
+    color: gray;
+    font-size: 15px;
+}
+
+.text-section .text a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.text-section .text-2 {
+    justify-content: center;
+    text-align: center;
+    color: gray;
+}
+
+.text-section .text-2 a {
+    color: dodgerblue;
+    text-decoration: none;
 }
